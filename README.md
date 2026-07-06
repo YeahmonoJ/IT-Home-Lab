@@ -12,7 +12,7 @@ Build a personal IT home lab to practice and document skills relevant to a CompT
 - Ubuntu Linux
 
 ## Planned Labs 
-- [ ] Windows installation
+- [x] Windows installation
 - [ ] User account management
 - [ ] Static IP configuration
 - [ ] DNS troubleshooting
