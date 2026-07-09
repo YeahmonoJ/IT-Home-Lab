@@ -1,0 +1,51 @@
+# Lab 03 - NTFS Permissions
+
+## Objective
+Learn how Windows controls access to files and folders using NTFS permissions, security groups, and inheritance.
+
+## Environment
+- Oracle VirtualBox
+- Windows 10 Pro
+- Local Users:
+  - ITAdmin
+  - Alice Johnson
+  - Bob Smith
+
+## Scenario
+HR reports that Sales employees can access confidential HR documents.
+
+Investigate how Windows determines folder access and identify how permissions should be configured.
+
+## Steps Performed
+1. Created CompanyFiles folder.
+2. Created HR, Finance, and Public folders.
+3. Examined the Security tab of the HR folder.
+4. Reviewed the built-in security groups.
+5. Examined inherited permissions.
+6. Compared Bob's group membership with the folder permissions.
+7. Determined why Bob could access the folder.
+
+## Why It Matters
+IT professionals regularly troubleshoot file and folder permission issues. Understanding NTFS permissions is essential for protecting company data while allowing employees to access the resources they need.
+
+## Skills Practiced
+- NTFS permission analysis
+- Windows Security tab
+- Security group inspection
+- Permission troubleshooting
+- Folder security
+
+## Lessons Learned
+- Folder permissions are assigned to users and groups.
+- Windows grants access based on group membership.
+- Folder permissions should be investigated before assuming the user account is incorrect.
+- Permission inheritance simplifies administration.
+- Department-based groups scale better than assigning permissions directly to users.
+
+## Personal Observations
+- Folder permissions are just as important as user permissions.
+- My first instinct was to check the user account, but I learned to inspect the protected resource first.
+- Permission inheritance reminded me of object-oriented programming inheritance.
+
+## Outcome
+Successfully analyzed how Windows authorizes folder access using users, groups, NTFS permissions, and inheritance.
