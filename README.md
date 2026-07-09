@@ -13,7 +13,7 @@ Build a personal IT home lab to practice and document skills relevant to a CompT
 
 ## Planned Labs 
 - [x] Windows installation
-- [ ] User account management
+- [x] User account management
 - [ ] Static IP configuration
 - [ ] DNS troubleshooting
 - [ ] DHCP troubleshooting
