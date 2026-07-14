@@ -15,7 +15,7 @@ Build a personal IT home lab to practice and document skills relevant to a CompT
 - [x] Windows installation
 - [x] User account management
 - [x] NTFS Permissions
-- [ ] Static IP configuration
+- [x] Static IP configuration
 - [ ] DNS troubleshooting
 - [ ] DHCP troubleshooting
 - [ ] remote Desktop
